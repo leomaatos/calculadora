@@ -67,3 +67,8 @@ class MainApp(App):
         if text:
             solution=str(eval(self.solution.text))
             self.solution.text=solution
+
+if __name__ = "__main__":
+    app = MainApp()
+    app.run()
+    
